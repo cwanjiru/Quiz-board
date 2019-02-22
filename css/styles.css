@@ -2,3 +2,6 @@ h1{
   color:maroon;
   font-style: italic;
 }
+li{
+  list-style-type: none;
+}
