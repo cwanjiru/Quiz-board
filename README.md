@@ -9,7 +9,7 @@ It is a quiz for students to answer and there results submitted after the test d
  ----------------------------|------------------------|--------------------|
  User enters a correct answer|     5                  |    20%             |
  ----------------------------|------------------------|--------------------|
- User enters a wrong answer  |     0                  |                    |
+ User enters a wrong answer  |     0                  |    0%              |
  ----------------------------|------------------------|--------------------|
 ## Known Bugs
 I have not encountered any bugs when running the application
