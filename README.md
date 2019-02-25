@@ -22,3 +22,6 @@ One can get to me through my github account.
 ### License
 *MIT licence was provided*
 Copyright (c) 2019 **CWG**
+LICENSE
+
+* [MIT Licence](Licence)

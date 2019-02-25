@@ -1,12 +1,10 @@
 h1{
   color:maroon;
   font-style: italic;
+  text-align:center;
 }
 li{
   list-style-type: none;
-}
-h2{
-
 }
 .sticky-top{
   background-color: #135263;
@@ -19,5 +17,5 @@ img{
   width: 100px;
 }
 footer{
-  background-color: #135263;
+  background-color:#135263;
 }
