@@ -7,50 +7,57 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
-<div class="jumbotron">
-  <h1>Javascript Quiz</h1>
+<h1>Javascript Quiz</h1>
 </div>
 
 <body>
+  <div class="well">
+    <h2>INSTRUCTIONS</h2>
+    <ul>
+      <li>The student should answer all questions in the provided space</li>
+      <li>The test below is approximately 30 mins and should be completed within that time-frame</li>
+      <li>The student should take this test seriously because it will determine whether they will proceed</li>
+      <li>The students should not discuss nor use phones</li>
+    </ul>
+  </div>
 
 
   <div class="container">
-    <form class="radio" action="index.html" method="post" id="answers">
-      <li>Which of the following attribute can hold the javascript version.</li>
-      <input type="radio" name="test" value="5">Language <br>
-      <input type="radio" name="test" value="0">script<br>
-      <input type="radio" name="test" value="0">version<br>
-      <br>
+    <div class="jumbotron">
+      <form id="quiz-board">
+        <label>Which of the following attribute can hold the javascript version.</label><br>
+        <input type="radio" name="test" value="10">Language <br>
+        <input type="radio" name="test" value="00">script<br>
+        <input type="radio" name="test" value="00">version<br>
 
-      <li>Which one can not be done with client-side Javascript</li>
-      <input type="radio" name="test1" value="5">storing the forms content in a database file on server<br>
-      <input type="radio" name="test1" value="0">Sending a forms content by email<br>
-      <input type="radio" name="test1" value="0">version<br>
-      <br>
+        <label>Which one can not be done with client-side Javascript</label><br>
+        <input type="radio" name="test1" value="10">storing the forms content in a database file on server<br>
+        <input type="radio" name="test1" value="00">Sending a forms content by email<br>
+        <input type="radio" name="test1" value="00">version<br>
 
-      <li>Which best explains getSelection</li>
-      <input type="radio" name="test2" value="0">Returns documents,url of the windows in focus <br>
-      <input type="radio" name="test2" value="0">Returns value of a selected option<br>
-      <input type="radio" name="test2" value="5">Returns the value of the cursor<br>
-      <br>
+        <label>Which best explains getSelection</label><br>
+        <input type="radio" name="test2" value="00">Returns documents,url of the windows in focus <br>
+        <input type="radio" name="test2" value="00">Returns value of a selected option<br>
+        <input type="radio" name="test2" value="10">Returns the value of the cursor<br>
 
 
-      <li>Which function of string object returns character at the specific index</li>
-      <input type="radio" name="test3" value="8">concat()<br>
-      <input type="radio" name="test3" value="9">indexOf()<br>
-      <br>
+        <label>Which function of string object returns character at the specific index</label><br>
+        <input type="radio" name="test3" value="10">concat()<br>
+        <input type="radio" name="test3" value="00">indexOf()<br>
 
-      <li>Which function of string object returns a string rep specified object</li>
-      <input type="radio" name="test4" value="10">tolocateUppercase()<br>
-      <input type="radio" name="test4" value="11">tolowerCase()<br>
-      <input type="radio" name="test4" value="12">toString()<br>
-      <br>
-      <li></li>
-    </form>
+        <label>Which function of string object returns a string rep specified object</label><br>
+        <input type="radio" name="test4" value="10">tolocateUppercase()<br>
+        <input type="radio" name="test4" value="00">tolowerCase()<br>
+        <input type="radio" name="test4" value="00">toString()<br>
+        <button type="submit" class="btn btn-info">submit</button>
+        <br>
+        <div id="results"></div>
+        <div id="comment"></div>
+      </form>
 
-  </div>
-  <button onclick="submit()">submit</button>
-
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
