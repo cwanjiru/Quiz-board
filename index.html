@@ -4,48 +4,58 @@
 <head>
   <meta charset="utf-8">
   <title>JAVASCRIPT QUIZ</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<h1>Javascript Quiz</h1>
-</div>
+
 
 <body>
-  <div class="well">
-    <h2>INSTRUCTIONS</h2>
-    <ul>
-      <li>The student should answer all questions in the provided space</li>
-      <li>The test below is approximately 30 mins and should be completed within that time-frame</li>
-      <li>The student should take this test seriously because it will determine whether they will proceed</li>
-      <li>The students should not discuss nor use phones</li>
-    </ul>
+  <div class="sticky-top">
+    <img src="icon.png" alt="my icon">
+
   </div>
 
-
+  <hr>
+  <h1>Javascript Quiz</h1>
+  <hr>
   <div class="container">
     <div class="jumbotron">
+      <div class="well">
+        <h2>INSTRUCTIONS</h2>
+        <ul>
+          <li>The student should answer all questions in the provided space</li>
+          <li>The test below is approximately 30 mins and should be completed within that time-frame</li>
+          <li>The student should take this test seriously because it will determine whether they will proceed</li>
+          <li>The students should not discuss nor use phones</li>
+        </ul>
+      </div>
+
+
+
       <form id="quiz-board">
-        <label>Which of the following attribute can hold the javascript version.</label><br>
+        <label class="shadow p-3 mb -5 bg-light rounded">1.Which of the following attribute can hold the javascript version.</label><br>
         <input type="radio" name="test" value="10">Language <br>
         <input type="radio" name="test" value="00">script<br>
         <input type="radio" name="test" value="00">version<br>
-
-        <label>Which one can not be done with client-side Javascript</label><br>
+        <hr>
+        <label class="shadow p-3 mb -5 bg-light rounded">2.Which one can not be done with client-side Javascript</label><br>
         <input type="radio" name="test1" value="10">storing the forms content in a database file on server<br>
         <input type="radio" name="test1" value="00">Sending a forms content by email<br>
         <input type="radio" name="test1" value="00">version<br>
-
-        <label>Which best explains getSelection</label><br>
+        <hr>
+        <label class="shadow p-3 mb -5 bg-light rounded">3.Which best explains getSelection</label><br>
         <input type="radio" name="test2" value="00">Returns documents,url of the windows in focus <br>
         <input type="radio" name="test2" value="00">Returns value of a selected option<br>
         <input type="radio" name="test2" value="10">Returns the value of the cursor<br>
 
-
-        <label>Which function of string object returns character at the specific index</label><br>
+        <hr>
+        <label class="shadow p-3 mb -5 bg-light rounded">4.Which function of string object returns character at the specific index</label><br>
         <input type="radio" name="test3" value="10">concat()<br>
         <input type="radio" name="test3" value="00">indexOf()<br>
-
-        <label>Which function of string object returns a string rep specified object</label><br>
+        <hr>
+        <label class="shadow p-3 mb -5 bg-light rounded">5.Which function of string object returns a string rep specified object</label><br>
         <input type="radio" name="test4" value="10">tolocateUppercase()<br>
         <input type="radio" name="test4" value="00">tolowerCase()<br>
         <input type="radio" name="test4" value="00">toString()<br>
@@ -59,5 +69,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
+<footer>
+
+</footer>
 
 </html>

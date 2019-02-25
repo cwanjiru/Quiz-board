@@ -5,3 +5,19 @@ h1{
 li{
   list-style-type: none;
 }
+h2{
+
+}
+.sticky-top{
+  background-color: #135263;
+}
+body{
+  text-align: center;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+footer{
+  background-color: #135263;
+}
