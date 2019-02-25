@@ -8,9 +8,8 @@ It is a quiz for students to answer and there results submitted after the test d
 | Behavior              | Input | Output |   
 |-----------------------|-------|--------|
 | Enters correct answer | 5     | 20%    |   
-| Enters a wrong answer | 0     | 0%     |  
-|-----------------------|-------|--------|          
-
+| Enters a wrong answer | 0     | 0%     |      
+| ----------------------|-------|--------|        
 ## Known Bugs
 I have not encountered any bugs when running the application
 ## Technologies used
