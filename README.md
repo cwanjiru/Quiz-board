@@ -19,8 +19,8 @@ CSS
 JAVASCRIPT
 ## Support and contact details
 One can get to me through my github account.
-### License
-*MIT licence was provided*
+<!-- ### License -->
+
 Copyright (c) 2019 **CWG**
 LICENSE
 
